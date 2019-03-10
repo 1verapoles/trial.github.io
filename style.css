@@ -1,0 +1,373 @@
+body {
+	width: 1020px;
+	margin: 0 auto; 
+	-webkit-box-sizing: border-box; 
+	        box-sizing: border-box;
+}
+.header {
+	height: 63px;
+	background-color: #323232;
+	position: relative;
+		    }
+	  .nav {
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-webkit-align-items: center;
+    -ms-flex-align: center;
+        align-items: center;
+        position: relative;
+	        	    }
+.menu {
+	margin-top: 27px;
+}
+.menu:first-child {
+	margin-left: 327px;
+}
+.menu:nth-child(3) {
+	margin-right: 141px;
+}
+	
+.nav div {
+		display: inline-block;
+		margin-right: 10px; 
+	}
+	.nav .logo {
+		position: absolute;
+	left: 50%;
+	top: 10px;
+	-webkit-transform: translateX(-50%);
+	        -ms-transform: translateX(-50%);
+	    transform: translateX(-50%);
+
+}
+.nav a {
+ text-transform: uppercase;
+ text-decoration: none;
+  color: #ffffff;
+  font-family: Lato, sans-serif;
+font-size: 10px;
+font-weight: 700;
+}
+.nav a:hover {
+  color: #2eb398;
+}
+
+.dot {
+	width: 2px;
+	height: 2px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	        background-color: #3c3c3c;
+	display: block;        
+	}
+.green {
+	color: #2eb398;
+}
+p i {
+width: 11px;
+height: 11px;
+margin-right: 20px;
+}
+
+.line {
+	width: 180px;
+	height: 1px;
+	background-color: red;
+	clear: both;
+}
+.social img {
+    width: 25px;
+   height: 24px;
+	display: inline-block;
+	margin-right: -4px;
+	padding: 0;
+	border: 0;
+}
+.social img:hover {
+   height: 30px;
+   }
+.header:after {
+	content:"";
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 27px solid #323232;
+	position: absolute;
+	left: 50%;
+	top: 63px;
+	-webkit-transform: translateX(-50%);
+	        -ms-transform: translateX(-50%);
+	    transform: translateX(-50%);
+}
+.cell {
+	width: 180px;
+height: 206px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	}
+.row1 .cell:first-child {
+	margin-right: 20px;
+}
+.row1 .cell:nth-child(2) {
+	margin-right: 16px;
+}
+.row1 .cell:nth-child(3) {
+	margin-right: 17px;
+}
+.row3 .cell:first-child {
+	margin-right: 20px;
+}
+.row3 .cell:nth-child(2) {
+	margin-right: 16px;
+}
+.row3 .cell:nth-child(3) {
+	margin-right: 17px;
+}
+.cell:before {
+	content: "";
+	position: absolute;
+	top: 0; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 90px solid #ffffff;
+	border-right: 90px solid #ffffff;
+	border-bottom: 50px solid transparent;
+	z-index: 1;
+}
+.cell:after {
+	content: "";
+	position: absolute;
+	bottom: 0px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 90px solid #ffffff;
+	border-right: 90px solid #ffffff;
+	border-top: 50px solid transparent;
+}
+.cell img {
+	width: 180px;
+height: 206px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+	}
+
+	.left {
+		width: 410px;
+height: 1px;
+background-color: #e4e9eb;
+margin-top: 11px;
+margin-left: 32px;
+display: inline-block;
+}
+.right {
+		width: 410px;
+height: 1px;
+background-color: #e4e9eb;
+margin-top: 11px;
+margin-right: 32px;
+display: inline-block;
+float: right;
+}
+.row1 {
+		margin: 73px 0px 0 117px;
+		position: relative;
+
+}
+.row2 {
+		margin-left: 20px;
+		margin-top: -10px;
+}
+.row2 .cell:nth-child(1) {
+		margin-right: 17px;
+}
+.row2 .cell:nth-child(2), .row2 .cell:nth-child(3), .row2 .cell:nth-child(4) {
+		margin-right: 16px;
+}
+.row3 {
+		margin: -10px 0px 0 117px;
+		position: relative;
+
+}
+.row1:before, .row3:before {
+		content: "";
+	position: absolute;
+	width: 1px;
+height: 104px;
+background-color: #e4e9eb;
+left: -19px;
+top: 52px;
+}
+.row1:after, .row3:after {
+		content: "";
+	position: absolute;
+	width: 1px;
+height: 104px;
+background-color: #e4e9eb;
+right: 100px;
+top: 52px;
+}
+.lower {
+	background-color: #222222;
+	height: 42px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	        clear: both;
+	}
+.copy {
+	color: #3c3c3c;
+font-family: 'Maven Pro', sans-serif;
+font-size: 12px;
+font-weight: 400;
+margin-left: 40px;
+}
+.square {
+	width: 5px;
+	height: 5px;
+	background-color: #dcd2c8;
+	display: inline-block;
+}
+.square:nth-child(3) {
+		background-color: #8a8683;
+}
+ .shadow {
+ 	margin-top: 45px;
+ 	margin-left: 30px;
+ }
+ .line1 {
+	width: 960px;
+	height: 1px;
+	background-color: #dcd2c8;
+	margin: 11px 0 3px 32px;
+}
+.block1 {
+margin: 10px 102px 0px;
+border-left: 2px #3c3c3c; 
+border-right: 2px #3c3c3c; 
+min-height: 345px;
+}
+.photo {
+	float: left;
+	margin: 68px 18px 0 20px;
+}
+.green1 {
+		background-color: #2eb398;
+		min-height: 345px;
+		margin-top: 8px;
+}
+
+h1 {
+	color: #d7fcf5;
+font-family: 'Maven Pro', sans-serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 4.56px;
+display: inline-block;
+margin-top: 75px;
+}
+h2 {
+	color: #20816d;
+font-family: 'Maven Pro', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+margin-top: -6px;
+}
+.lor {
+	font-family: Lato, sans-serif;
+color: #d7fcf5;
+font-size: 12px;
+font-weight: 400;
+line-height: 21.56px;
+}
+.socialbar {
+	margin-top: 35px;
+	margin-left: 650px;
+}
+.form {
+	width: 1020px;
+background-color: #323232;
+
+}
+.right1 p {
+	color: #bebebe;
+font-family: Lato, sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 21.56px;
+background-color: #323232;
+}
+.right1 {
+	}
+
+button {
+	width: 90px;
+height: 37px;
+background-color: #2eb398;
+outline: 0;
+color: #d7fcf5;
+font-family: Lato, sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 21.56px;
+text-transform: uppercase;
+padding: 0;
+margin-left: 495px;
+margin-top: 14px;
+margin-bottom: 51px;
+
+}
+input, textarea {
+	background-color: #454545;
+	color: #bebebe;
+font-family: Lato, sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 21.56px;
+display: block;
+border: 0;
+margin-bottom: 15px;
+width: 100%;
+}
+h3 {
+color: #e0e0e0;
+font-family: "Maven Pro Regular";
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+margin-left: 121px;
+display: inline-block;
+margin-top: 57px;
+}
+.left1 {
+	float: left;
+	background-color: #323232;
+	margin-left: 121px;
+	margin-right: 15px;
+	width: 581px;
+}
+h4 {
+	color: #bebebe;
+font-family: "Maven Pro Regular";
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+margin-left: 121px;
+margin-top: -27px;
+}
